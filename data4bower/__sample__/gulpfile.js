@@ -34,18 +34,12 @@ const sourcemaps = require('gulp-sourcemaps');
 // 2. Создать файл с датой последнего исполнения рядом с gulpfile.js
 gulp.task('lastuse', function(callback) {
 
-	console.log(__dirname.split("/").pop());
-
-	fs.writeFile("lastuse", "Hey there!", function(err) {
-    if(err) {
-        return console.log(err);
-    }
-    console.log("The file was saved!");
-	}); 
-
+	fs.writeFile("lastuse", "Дата и время (UTC) последнего выполнения gulp-задачи для этого bower-пакета.\n"+new Date().toUTCString()); 
   callback();
 
 });
+
+// 3. 
 
 
 // x. Выполнить все необходимые задачи этого gulpfile

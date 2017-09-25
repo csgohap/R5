@@ -3,6 +3,7 @@
     "dependencies": {
         "4gekkman-bower-jslib1": "latest",
         "4gekkman-bower-cssgrids": "latest",
+        "clipboard": "latest",
         "Font-Awesome": "latest",
         "ionicons": "latest",
         "jquery": "~2.0",

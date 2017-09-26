@@ -3,7 +3,6 @@
     "dependencies": {
         "4gekkman-bower-jslib1": "latest",
         "4gekkman-bower-cssgrids": "latest",
-        "clipboard": "latest",
         "Font-Awesome": "latest",
         "ionicons": "latest",
         "jquery": "~2.0",
@@ -22,6 +21,7 @@
         "beemuse": "latest",
         "tooltipster": "latest",
         "smooth-scroll.js": "latest",
+        "clipboard": "latest",
         "toastr": "latest",
         "knockout-mapping": "latest"
     }
